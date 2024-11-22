@@ -1,0 +1,28 @@
+﻿body {
+    background-color: wheat;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px);
+}
+
+.box1, .box2, .box3 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin: 0 10px;
+    padding-top: 80px;
+}
+
+.button {
+    font-size: 1em;
+    padding: 15px 35px;
+    color: #fff;
+    text-decoration: none;
+    background: #403e3d;
+    border-radius: 50px;
+    position: relative;
+}

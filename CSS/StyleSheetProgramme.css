@@ -1,0 +1,101 @@
+﻿body {
+    background-color: wheat;
+}
+
+h3 {
+    text-align: center;
+    color: #413b3b;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 80px;
+    font-family: zen tokyo zoo;
+}
+
+h5 {
+    text-align: center;
+    color: #82807f;
+    margin: 80px auto;
+    font-size: 20px;
+    width: 50%;
+    line-height: 1.7;
+}
+
+.claims-container {
+    margin: 20px auto;
+    width: 90%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.claims-grid {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .claims-grid th, .claims-grid td {
+        padding: 10px;
+        border: 1px solid #ddd;
+        text-align: left;
+    }
+
+    .claims-grid th {
+        background-color: #413b3b;
+        color: white;
+    }
+
+.btn-approve {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-reject {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    .btn-approve:hover, .btn-reject:hover {
+        opacity: 0.8;
+    }
+
+
+.progress-container {
+    width: 100%;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.progress-bar {
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    background-color: #4caf50;
+    transition: width 0.3s;
+}
+
+.status-pending .progress-bar {
+    width: 33%;
+    background-color: #f0ad4e; /* Orange */
+}
+
+.status-approved .progress-bar {
+    width: 100%;
+    background-color: #5cb85c; /* Green */
+}
+
+.status-rejected .progress-bar {
+    width: 100%;
+    background-color: #d9534f; /* Red */
+}
